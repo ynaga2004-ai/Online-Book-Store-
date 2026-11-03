@@ -1,7 +1,7 @@
 # 📚 Online Book Store (Django)
 ### A web-based application for browsing, managing, and downloading books. Built with Django, Bootstrap, and supports login/logout, admin controls, PDF download, and user reviews.
 
-## Features
+## 🚀 Features
 ### User authentication (Login/Register/Logout)
 #### ✅ Admin-only CRUD operations (Add, Edit, Delete books)
 #### ✅ Book listing with search and pagination
@@ -10,7 +10,7 @@
 #### ✅ Image upload for each book
 #### ✅ Responsive design using Bootstrap 5
 
-## Tech Stack
+## 🛠 Tech Stack
 #### * Backend: Django 4.x
 #### * Frontend: HTML5, CSS3, Bootstrap 5
 #### * Database: SQLite (default) or MySQL (optional)
