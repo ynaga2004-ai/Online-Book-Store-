@@ -1,4 +1,4 @@
-# Online Book Store (Django)
+#📚 Online Book Store (Django)
 ### A web-based application for browsing, managing, and downloading books. Built with Django, Bootstrap, and supports login/logout, admin controls, PDF download, and user reviews.
 
 ## Features
@@ -15,3 +15,28 @@
 #### * Frontend: HTML5, CSS3, Bootstrap 5
 #### * Database: SQLite (default) or MySQL (optional)
 #### * Others: Django Authentication, Pagination, File Handling
+
+## 🧩 Setup Instructions
+git clone https://github.com/yourusername/online-book-store.git
+cd online-book-store
+
+### 2. Create virtual environment
+
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate (Windows)
+
+### 3. Install dependencies
+
+pip install -r requirements.txt
+
+### 4. Apply migrations
+
+python manage.py migrate
+
+### 5. Create superuser
+
+python manage.py createsuperuser 
+
+### 6. Run development server
+
+python manage.py runserver
